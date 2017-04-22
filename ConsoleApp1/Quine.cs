@@ -19,6 +19,6 @@ namespace ConsoleApp1
                                     "         return code.Replace(\"\\n\",\"\\\\n\\\" + \\\"\");\n" + "      }\n" + "\n" +
                                     "      public static void Main(string[] args)\n" + "      {\n" +
                                     "         Console.WriteLine(code + Esc(code) + \";\\n   }\\n}\");\n" + "      }\n" +
-                                    "\n" + "      public static string code = \\\"";
+                                    "\n" + "      public static string code = \"";
     }
 }
